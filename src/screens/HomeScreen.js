@@ -24,8 +24,13 @@ const HomeScreen = ({navigation}) => {
 
       <Button
         onPress={()=>movePage('Counter')}
-        title="Go to List Counter Screen" />
+        title="Go to  Counter Screen" />
+        
 
+        
+      <Button
+        onPress={()=>movePage('Color')}
+        title="Go to Color Screen" />
        
     </View>
   ) 
