@@ -22,6 +22,10 @@ const HomeScreen = ({navigation}) => {
         onPress={()=>movePage('Image')}
         title="Go to List Image Screen" />
 
+      <Button
+        onPress={()=>movePage('Counter')}
+        title="Go to List Counter Screen" />
+
        
     </View>
   ) 
